@@ -51,7 +51,7 @@ const validateAndSave = (documents) => {
           if (err) {
             console.log("Log:" + err.message);
           } else {
-            console.log(`Documento ${doc._id} salvo com sucesso`);
+            console.log(`Document ${doc._id} saved successfully`);
           }
         });
       });
